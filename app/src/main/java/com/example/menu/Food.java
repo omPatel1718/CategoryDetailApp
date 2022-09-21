@@ -14,6 +14,12 @@ public class Food {
         this.imageResourceID = imageResourceID;
     }
 
+    //don't use Generate
+    //overrides default print
+    public String toString(){
+        return name;
+    }
+
     public String getName() {
         return name;
     }
