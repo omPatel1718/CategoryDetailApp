@@ -91,20 +91,20 @@ public class Food implements Parcelable {
 
 
     public static final Food[] mySnacks = {
-            new Food("Nachos", 3.99, "snak", R.drawable.dorito),
             new Food("Pretzel", 4.99, "snak", R.drawable.pretzel),
-            new Food("Fries", 1.50, "snak", R.drawable.fries)
+            new Food("Fries", 1.50, "snak", R.drawable.fries),
+            new Food("Popcorn", 3.99, "snak", R.drawable.Popcorn)
     };
 
-    public static final Food[] myDrinks = {
-            //new Food("Monster", 0.99, "Water", ),
-            //new Food("Juice", 1.99, "Sugarcane, Lemon, Pineapple", )
+    public static final Food[] myApps = {
+            new Food("Nachos", 3.99, "snak", R.drawable.dorito),
+            new Food("Breadsticks", 1.99, "snak", R.drawable.breadsticks),
             //new Food("Soda", 1.99, "insert list of brands here"
     };
 
-    public static final Food[] myFood = {
-            //new Food("Sand", 0.99, "Water", ),
-            //new Food("Juice", 1.99, "Orange, Apple, Lemon, Pineapple", )
+    public static final Food[] myDeserts = {
+            //new Food("Sandwich", 0.99, "Water", ),
+            //new Food("Pasta", 1.99, "Orange, Apple, Lemon, Pineapple", ),
             //new Food("Soda", 1.99, "insert list of brands here"
     };
 
