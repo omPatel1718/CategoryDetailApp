@@ -93,7 +93,7 @@ public class Food implements Parcelable {
     public static final Food[] mySnacks = {
             new Food("Pretzel", 4.99, "snak", R.drawable.pretzel),
             new Food("Fries", 1.50, "snak", R.drawable.fries),
-            new Food("Popcorn", 3.99, "snak", R.drawable.Popcorn)
+            new Food("Popcorn", 3.99, "snak", R.drawable.popcorn)
     };
 
     public static final Food[] myApps = {
