@@ -2,7 +2,7 @@
     <string name="app_name">Menu</string>
     <string-array name="options">
         <item>Snacks</item>
-        <item>Drinks</item>
-        <item>Entrees</item>
+        <item>Apps</item>
+        <item>Deserts</item>
     </string-array>
 </resources>
