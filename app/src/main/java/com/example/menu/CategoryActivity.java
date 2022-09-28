@@ -29,9 +29,19 @@ public class CategoryActivity extends AppCompatActivity {
         // calling the toString()
         ArrayAdapter<Food> listAdapter = new ArrayAdapter<>(
                 this, android.R.layout.simple_list_item_1, dataToDisplay);
+
+        //OR use the custom Adapter to design a custom row
+        FoodAdapter myFoodAdapter = new FoodAdapter(this,dataToDisplay);
+
+
         // This finds the listView and then adds the adapter to bind the data to this view
         ListView listView = (ListView) findViewById(R.id.categoryOptions);
-        listView.setAdapter(listAdapter);
+
+        //with basic set up
+       // listView.setAdapter(listAdapter);
+
+        //with custom set up
+        listView.setAdapter(myFoodAdapter);
 
         // Create listener to listen for when a Food from the specific Category list is clicked on
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

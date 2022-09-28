@@ -34,20 +34,20 @@ public class MainActivity extends AppCompatActivity {
                 ArrayList<Food> listData = new ArrayList<>();
 
                 // the choices for the menu on MainActivity coincide with the values in arr in strings.xml file
-                if (position == 0) {        		  	// they chose breakfast
+                if (position == 0) {        		  	// they chose snacks
                     for (Food f: Food.mySnacks) {      // add all the elements for this array to the arraylist
                         listData.add(f);
                     }
                 }
 
                 else if (position == 1) {
-                    for (Food f: Food.myApps) { 		// they chose lunch
+                    for (Food f: Food.myApps) { 		// they chose appetizers
                         listData.add(f);
                     }
                 }
 
                 else if (position == 2) {
-                    for (Food f: Food.myDeserts) { 		// they chose dinner
+                    for (Food f: Food.myDeserts) { 		// they chose deserts
                         listData.add(f);
                     }
                 }

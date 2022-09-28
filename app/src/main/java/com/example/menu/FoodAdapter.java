@@ -19,12 +19,12 @@ public class FoodAdapter extends ArrayAdapter<Food>{
         Food myfood = getItem(position);
         //check if reusing existing view
         if(convertView==null){
-            convertView = LayoutInflater.from(getContext()).inflate(R.layout.item_food_row_layout, parent, false);
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.category_row, parent, false);
         }
         //Look up view for data population
-        TextView tvName = (TextView) convertView.findViewById(R.id.nameView);
-        TextView tvPrice = (TextView) convertView.findViewById(R.id.priceView);
-        TextView tvDesc = (TextView) convertView.findViewById(R.id.descriptionView);
+        TextView tvName = (TextView) convertView.findViewById(R.id.foodName);
+        TextView tvPrice = (TextView) convertView.findViewById(R.id.price);
+        TextView tvDesc = (TextView) convertView.findViewById(R.id.description);
         //populate data into template view w/ data object
         tvName.setText(myfood.getName());
         tvPrice.setText("$" + myfood.getPrice());
