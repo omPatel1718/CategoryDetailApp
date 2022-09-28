@@ -12,7 +12,13 @@
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/logo" />
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/logo"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <ListView
         android:id="@+id/list_options"
@@ -21,5 +27,6 @@
         android:entries="@array/options"
         android:layout_marginLeft="10dp">
     </ListView>
+
 
 </androidx.appcompat.widget.LinearLayoutCompat>
