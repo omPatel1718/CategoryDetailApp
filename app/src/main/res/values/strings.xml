@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Menu</string>
+    <string name="app_name">Everything but Entrees Menu</string>
     <string-array name="options">
         <item>Snacks</item>
         <item>Apps</item>

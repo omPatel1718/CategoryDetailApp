@@ -27,7 +27,9 @@ public class FoodAdapter extends ArrayAdapter<Food>{
         TextView tvDesc = (TextView) convertView.findViewById(R.id.description);
         //populate data into template view w/ data object
         tvName.setText(myfood.getName());
-        tvPrice.setText("$" + myfood.getPrice());
+
+        String temp = "" + myfood.getPrice();
+        tvPrice.setText("$" + temp);
         tvDesc.setText(myfood.getDesc());
         //return completed view
         return convertView;

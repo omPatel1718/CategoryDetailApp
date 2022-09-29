@@ -91,21 +91,21 @@ public class Food implements Parcelable {
 
 
     public static final Food[] mySnacks = {
-            new Food("Pretzel", 4.99, "it's in the top 3 salt delivery mechanisms", R.drawable.pretzel),
-            new Food("Fries", 1.50, "comes with mayo and ketchup", R.drawable.fries),
-            new Food("Popcorn", 3.99, "buttery", R.drawable.popcorn2)
+            new Food("Pretzel", 4.99, "It's in the top 3 salt delivery mechanisms.", R.drawable.pretzel),
+            new Food("Fries", 1.99, "Comes with mayo and ketchup.", R.drawable.fries),
+            new Food("Popcorn", 3.99, "Extremely buttery!", R.drawable.popcorn2)
     };
 
     public static final Food[] myApps = {
-            new Food("Nachos", 3.99, "has cheese, salsa, jalapenos, and sour cream", R.drawable.dorito),
-            new Food("Bread sticks", 1.99, "it's not unlimited", R.drawable.breadsticks),
-            new Food("Salad", 2.99, "for if you want something healthy",R.drawable.leaf),
+            new Food("Nachos", 3.99, "It has jalapenos and your choice of cheese or salsa.", R.drawable.dorito),
+            new Food("Bread sticks", 1.99, "Disclaimer: It's not unlimited.", R.drawable.breadsticks),
+            new Food("Salad", 2.99, "For when you want something healthy.",R.drawable.leaf),
     };
 
     public static final Food[] myDeserts = {
-            new Food("Cookies", 1.99, "those cookies that are dry and toothache sweet", R.drawable.sugar_cookies),
-            new Food("Cake", 2.99, "fruit, carrot, chocolate, vanilla, egg, and more", R.drawable.cake),
-            new Food("Ice cream", 1.99, "flavors: ice, cream, spiderman, rocky road", R.drawable.ice_cream)
+            new Food("Cookies", 1.99, "They are dry and toothache sweet", R.drawable.sugar_cookies),
+            new Food("Cake", 2.99, "Fruit, carrot, chocolate, vanilla, egg, and more!", R.drawable.cake),
+            new Food("Ice cream", 1.99, "Flavors: ice, screams, spiderman, rocky road, and more.", R.drawable.ice_cream)
     };
 
 
